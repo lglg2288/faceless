@@ -7,15 +7,8 @@
       "RelativeMoniker": "D:0:0:{A479487A-E787-2CE8-2D69-19ACDC664B6A}|faceless.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A479487A-E787-2CE8-2D69-19ACDC664B6A}|faceless.csproj|c:\\users\\public\\projects\\faceless\\faceless\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A479487A-E787-2CE8-2D69-19ACDC664B6A}|faceless.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A479487A-E787-2CE8-2D69-19ACDC664B6A}|faceless.csproj|c:\\users\\public\\projects\\faceless\\faceless\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A479487A-E787-2CE8-2D69-19ACDC664B6A}|faceless.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.111\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A479487A-E787-2CE8-2D69-19ACDC664B6A}|faceless.csproj|c:\\users\\public\\projects\\faceless\\faceless\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A479487A-E787-2CE8-2D69-19ACDC664B6A}|faceless.csproj|solutionrelative:resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A479487A-E787-2CE8-2D69-19ACDC664B6A}|faceless.csproj|c:\\users\\public\\projects\\faceless\\faceless\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -24,6 +17,21 @@
     {
       "AbsoluteMoniker": "D:0:0:{A479487A-E787-2CE8-2D69-19ACDC664B6A}|faceless.csproj|c:\\users\\public\\projects\\faceless\\faceless\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A479487A-E787-2CE8-2D69-19ACDC664B6A}|faceless.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A479487A-E787-2CE8-2D69-19ACDC664B6A}|faceless.csproj|c:\\users\\public\\projects\\faceless\\faceless\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A479487A-E787-2CE8-2D69-19ACDC664B6A}|faceless.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A479487A-E787-2CE8-2D69-19ACDC664B6A}|faceless.csproj|c:\\users\\public\\projects\\faceless\\faceless\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A479487A-E787-2CE8-2D69-19ACDC664B6A}|faceless.csproj|solutionrelative:resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.111\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A479487A-E787-2CE8-2D69-19ACDC664B6A}|faceless.csproj|c:\\users\\public\\projects\\faceless\\faceless\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A479487A-E787-2CE8-2D69-19ACDC664B6A}|faceless.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A479487A-E787-2CE8-2D69-19ACDC664B6A}|faceless.csproj|c:\\users\\public\\projects\\faceless\\faceless\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
@@ -41,7 +49,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,33 +65,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\Public\\projects\\faceless\\faceless\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "Resources\\Styles\\Styles.xaml",
+              "ToolTip": "C:\\Users\\Public\\projects\\faceless\\faceless\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "Resources\\Styles\\Styles.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-29T16:32:29.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\Users\\Public\\projects\\faceless\\faceless\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "Resources\\Styles\\Colors.xaml",
+              "ToolTip": "C:\\Users\\Public\\projects\\faceless\\faceless\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "Resources\\Styles\\Colors.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-29T16:31:37.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\Public\\projects\\faceless\\faceless\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
               "ToolTip": "C:\\Users\\Public\\projects\\faceless\\faceless\\AppShell.xaml",
               "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-28T21:14:53.521Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Microsoft.Maui.Resizetizer.After.targets",
               "DocumentMoniker": "C:\\Users\\Admin\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.111\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Admin\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.111\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
               "ToolTip": "C:\\Users\\Admin\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.111\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
               "RelativeToolTip": "..\\..\\..\\..\\Admin\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.111\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "ViewState": "AgIAAGACAAAAAAAAAAAvwGwCAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGACAAAAAAAAAAAvwHECAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2025-11-28T21:08:49.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Public\\projects\\faceless\\faceless\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
@@ -91,8 +125,7 @@
               "RelativeToolTip": "MainPage.xaml.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAIAywAkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T20:41:57.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T20:41:57.64Z"
             },
             {
               "$type": "Document",
@@ -102,27 +135,27 @@
               "RelativeDocumentMoniker": "MainPage.xaml",
               "ToolTip": "C:\\Users\\Public\\projects\\faceless\\faceless\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-28T20:37:49.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Public\\projects\\faceless\\faceless\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
               "ToolTip": "C:\\Users\\Public\\projects\\faceless\\faceless\\App.xaml",
               "RelativeToolTip": "App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-28T20:05:50.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AndroidManifest.xml",
               "DocumentMoniker": "C:\\Users\\Public\\projects\\faceless\\faceless\\Platforms\\Android\\AndroidManifest.xml",
               "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
@@ -133,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "appicon.svg",
               "DocumentMoniker": "C:\\Users\\Public\\projects\\faceless\\faceless\\Resources\\AppIcon\\appicon.svg",
               "RelativeDocumentMoniker": "Resources\\AppIcon\\appicon.svg",
@@ -141,12 +174,11 @@
               "RelativeToolTip": "Resources\\AppIcon\\appicon.svg",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-28T19:55:45.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T19:55:45.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\Public\\projects\\faceless\\faceless\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiProgram.cs",

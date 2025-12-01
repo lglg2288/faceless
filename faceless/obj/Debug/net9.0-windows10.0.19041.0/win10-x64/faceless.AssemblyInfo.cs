@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("faceless")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c06db804bdd4b169d3171448e50ed74b9286855a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7f6933e605f03843d1d38fc0c9e46a30aab49a0c")]
 [assembly: System.Reflection.AssemblyProductAttribute("faceless")]
 [assembly: System.Reflection.AssemblyTitleAttribute("faceless")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

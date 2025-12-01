@@ -4,6 +4,5 @@
              x:Class="faceless.MainPage">
 
     <Grid>
-        <Image Source="first_meeting.jpg" VerticalOptions="Fill" />
     </Grid>
 </ContentPage>
