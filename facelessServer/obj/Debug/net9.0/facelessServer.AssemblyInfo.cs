@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("facelessServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f6933e605f03843d1d38fc0c9e46a30aab49a0c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d68b94273fb059a3b4ac3f8381d3fdd40f79f0f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("facelessServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("facelessServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

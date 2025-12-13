@@ -1,27 +1,43 @@
 ﻿using System.Data.SQLite;
+using System.Text;
+using MessServiceApp;
 
 namespace facelessServer
 {
     public class Program
     {
+        private readonly SQLiteConnection _DbConnection;
+        private static Program _Instance = new Program();
+        private Program()
+        {
+            
+            _DbConnection = new SQLiteConnection(@"Data Source=database\users.db");
+            _DbConnection.Open();
+        }
         static void Main()
         {
+            var _idSender = new SenderIDService();
+            _idSender.OnUsernameReceived += _Instance.ReceivedIdHandler;
+        }
 
-            //var connection = new SQLiteConnection("Data Source=C:\\Users\\Public\\projects\\faceless\\facelessServer\\database\\users.db");
-            //connection.Open();
-            //List<string> l = new List<string>();
-            //using (var command = connection.CreateCommand())
-            //{
-            //    command.CommandText = "SELECT * FROM Users";
-            //    using (var reader = command.ExecuteReader()) // For operations that return data
-            //    {
-            //        while (reader.Read())
-            //        {
-            //            l.Add(reader.GetValue(1).ToString());
-            //        }
-            //    }
-            //}
-            //Console.ReadLine();
+        private ulong ReceivedIdHandler(string username)
+        {
+            using var DbCommand = _DbConnection.CreateCommand();
+            List<string> l = new List<string>();
+
+            DbCommand.CommandText = $"SELECT Name FROM Users WHERE Name = @name";
+            DbCommand.Parameters.AddWithValue("@name", username);
+
+            using var reader = DbCommand.ExecuteReader();
+                
+            while (reader.Read())
+            {
+                string? CurrentName = reader.GetValue(0).ToString();
+                if (CurrentName != null)
+                    l.Add(CurrentName);
+            }
+
+            return 0;
         }
     }
 }

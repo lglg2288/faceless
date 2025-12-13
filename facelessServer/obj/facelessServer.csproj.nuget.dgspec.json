@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Public\\projects\\faceless\\facelessServer\\facelessServer.csproj": {}
+    "C:\\Users\\Public\\Projects\\faceless\\facelessServer\\facelessServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Public\\projects\\faceless\\facelessServer\\facelessServer.csproj": {
+    "C:\\Users\\Public\\Projects\\faceless\\facelessServer\\facelessServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Public\\projects\\faceless\\facelessServer\\facelessServer.csproj",
+        "projectUniqueName": "C:\\Users\\Public\\Projects\\faceless\\facelessServer\\facelessServer.csproj",
         "projectName": "facelessServer",
-        "projectPath": "C:\\Users\\Public\\projects\\faceless\\facelessServer\\facelessServer.csproj",
+        "projectPath": "C:\\Users\\Public\\Projects\\faceless\\facelessServer\\facelessServer.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Public\\projects\\faceless\\facelessServer\\obj\\",
+        "outputPath": "C:\\Users\\Public\\Projects\\faceless\\facelessServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -93,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

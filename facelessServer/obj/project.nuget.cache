@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1iRQjWBzP1U=",
+  "dgSpecHash": "h26wk+ykVHk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Public\\projects\\faceless\\facelessServer\\facelessServer.csproj",
+  "projectFilePath": "C:\\Users\\Public\\Projects\\faceless\\facelessServer\\facelessServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\google.protobuf\\3.33.1\\google.protobuf.3.33.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\grpc.aspnetcore\\2.71.0\\grpc.aspnetcore.2.71.0.nupkg.sha512",
@@ -30,5 +30,15 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.memory\\4.6.3\\system.memory.4.6.3.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Произошла ошибка при получении данных уязвимости пакета: Не удалось загрузить индекс служб для источника https://api.nuget.org/v3/index.json.",
+      "projectPath": "C:\\Users\\Public\\Projects\\faceless\\facelessServer\\facelessServer.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Public\\Projects\\faceless\\facelessServer\\facelessServer.csproj",
+      "targetGraphs": []
+    }
+  ]
 }
