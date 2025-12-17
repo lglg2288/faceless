@@ -7,11 +7,11 @@ namespace MessServiceApp
 {
     public class SenderIDService : SenderID.SenderIDBase
     {
-        public delegate ulong _OnUsernameReceived(string username);
+        public delegate long _OnUsernameReceived(string username);
         public event _OnUsernameReceived? OnUsernameReceived;
         public override async Task<Response> GetID(Request request, ServerCallContext context)
         {
-            ulong id;
+            long id;
             if (OnUsernameReceived == null)
                 throw new InvalidOperationException("No handler for OnUsernameReceived event.");
             else

@@ -1,0 +1,2 @@
+obj\Debug\net9.0-maccatalyst\maccatalyst-x64\Protos/Auth.cs \
+obj\Debug\net9.0-maccatalyst\maccatalyst-x64\Protos/AuthGrpc.cs: Protos/auth.proto

@@ -25,7 +25,7 @@ namespace MessServiceApp {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChFQcm90b3MvYXV0aC5wcm90bxIJUmVxdWVzdElEIhcKB1JlcXVlc3QSDAoE",
-            "bmFtZRgBIAEoCSIWCghSZXNwb25zZRIKCgJpZBgBIAEoBDI8CghTZW5kZXJJ",
+            "bmFtZRgBIAEoCSIWCghSZXNwb25zZRIKCgJpZBgBIAEoAzI8CghTZW5kZXJJ",
             "RBIwCgVHZXRJRBISLlJlcXVlc3RJRC5SZXF1ZXN0GhMuUmVxdWVzdElELlJl",
             "c3BvbnNlQhGqAg5NZXNzU2VydmljZUFwcGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
@@ -284,10 +284,10 @@ namespace MessServiceApp {
 
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 1;
-    private ulong id_;
+    private long id_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ulong Id {
+    public long Id {
       get { return id_; }
       set {
         id_ = value;
@@ -317,7 +317,7 @@ namespace MessServiceApp {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Id != 0UL) hash ^= Id.GetHashCode();
+      if (Id != 0L) hash ^= Id.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -336,9 +336,9 @@ namespace MessServiceApp {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Id != 0UL) {
+      if (Id != 0L) {
         output.WriteRawTag(8);
-        output.WriteUInt64(Id);
+        output.WriteInt64(Id);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -350,9 +350,9 @@ namespace MessServiceApp {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Id != 0UL) {
+      if (Id != 0L) {
         output.WriteRawTag(8);
-        output.WriteUInt64(Id);
+        output.WriteInt64(Id);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -364,8 +364,8 @@ namespace MessServiceApp {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Id != 0UL) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(Id);
+      if (Id != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Id);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -379,7 +379,7 @@ namespace MessServiceApp {
       if (other == null) {
         return;
       }
-      if (other.Id != 0UL) {
+      if (other.Id != 0L) {
         Id = other.Id;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -402,7 +402,7 @@ namespace MessServiceApp {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            Id = input.ReadUInt64();
+            Id = input.ReadInt64();
             break;
           }
         }
@@ -425,7 +425,7 @@ namespace MessServiceApp {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 8: {
-            Id = input.ReadUInt64();
+            Id = input.ReadInt64();
             break;
           }
         }

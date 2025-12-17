@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "MessServiceApp";
+
+package RequestID;
+
+message Request {
+	string name = 1;
+}
+
+message Response {
+	uint64 id = 1;
+}
+
+service SenderID {
+	rpc GetID(Request) returns (Response);
+}

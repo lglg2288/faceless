@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Tru8Lo2XBAQ=",
+  "dgSpecHash": "DuCNdOxh9Xc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Public\\projects\\faceless\\faceless\\faceless.csproj",
+  "projectFilePath": "C:\\Users\\Public\\Projects\\faceless\\faceless\\faceless.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\google.protobuf\\3.33.2\\google.protobuf.3.33.2.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\googlegson\\2.13.0.1\\googlegson.2.13.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\grpc.tools\\2.76.0\\grpc.tools.2.76.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.8\\microsoft.extensions.configuration.9.0.8.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.8\\microsoft.extensions.configuration.abstractions.9.0.8.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.8\\microsoft.extensions.dependencyinjection.9.0.8.nupkg.sha512",

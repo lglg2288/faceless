@@ -20,7 +20,16 @@ namespace facelessServer
             _idSender.OnUsernameReceived += _Instance.ReceivedIdHandler;
         }
 
-        private ulong ReceivedIdHandler(string username)
+        private long ReceivedIdHandler(string username)
+        {
+            if (UsernameExists(username))
+            {
+
+            }
+            return 0;
+        }
+
+        private bool UsernameExists(string username)
         {
             using var DbCommand = _DbConnection.CreateCommand();
             List<string> l = new List<string>();
@@ -29,15 +38,14 @@ namespace facelessServer
             DbCommand.Parameters.AddWithValue("@name", username);
 
             using var reader = DbCommand.ExecuteReader();
-                
+
             while (reader.Read())
             {
                 string? CurrentName = reader.GetValue(0).ToString();
                 if (CurrentName != null)
                     l.Add(CurrentName);
             }
-
-            return 0;
+            return l.Count > 0;
         }
     }
 }

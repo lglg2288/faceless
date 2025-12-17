@@ -2,7 +2,18 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="faceless.MainPage">
-
-    <Grid>
+    <ContentPage.Resources>
+        <!--<Label TextColor="White"/>-->
+    </ContentPage.Resources>
+    <Grid BackgroundColor="#292929">
+        <VerticalStackLayout>
+            <Label Text="Welcome" FontSize="70" TextColor="#a9d3ff" HorizontalOptions="Center"/>
+        </VerticalStackLayout>
+        <Button Text="Registratiosn"
+                WidthRequest="120"
+                HeightRequest="10"
+                Clicked="BtnRegistrationHandler"
+                BorderColor="White"
+                BorderWidth="2"/>
     </Grid>
 </ContentPage>

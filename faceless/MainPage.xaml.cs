@@ -8,4 +8,9 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void BtnRegistrationHandler(object sender, EventArgs e)
+    {
+
+    }
 }

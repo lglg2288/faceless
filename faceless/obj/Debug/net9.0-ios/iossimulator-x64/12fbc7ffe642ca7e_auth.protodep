@@ -1,0 +1,2 @@
+obj\Debug\net9.0-ios\iossimulator-x64\Protos/Auth.cs \
+obj\Debug\net9.0-ios\iossimulator-x64\Protos/AuthGrpc.cs: Protos/auth.proto
